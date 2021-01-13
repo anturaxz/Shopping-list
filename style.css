@@ -1,0 +1,39 @@
+body{
+  font-family: Arial;
+  color: white;
+  }
+.dimensions{
+  width: 200px;
+}
+.coolTitle {
+  color: black;
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  text-shadow: 2px 2px 8px grey;
+  text-decoration-line: underline;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.color{
+  background-color: grey;
+  padding: 30px;
+  border-radius: 20px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.done {
+  text-decoration: 3px line-through;
+  text-decoration-color: grey;
+}
+.delete{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  user-select: none;
+}
